@@ -2,10 +2,6 @@ package cn.leafw.zone.dms.api.dto;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Date;
 
 /**
@@ -14,7 +10,7 @@ import java.util.Date;
  * @date 2018/7/11 17:35
  */
 @Data
-public class DicDto {
+public class DicQueryDto {
 
     private String dicId;
 

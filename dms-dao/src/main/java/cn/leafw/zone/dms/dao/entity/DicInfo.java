@@ -25,6 +25,9 @@ public class DicInfo {
     @Column(name = "key")
     private String key;
 
+    @Column(name = "code")
+    private String code;
+
     @Column(name = "name")
     private String name;
 
